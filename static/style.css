@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    padding-top: 80px;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    width: 100%;
+    padding: 15px 50px;
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #36d1dc;
+}
+
+/* ===== CENTER PAGE ===== */
+.center-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+/* ===== CARD ===== */
+.card {
+    background: white;
+    color: #1e3c72;
+    padding: 45px;
+    border-radius: 20px;
+    text-align: center;
+    width: 420px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ===== CONTAINER ===== */
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+/* ===== BOXES ===== */
+.box {
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    padding: 35px;
+    border-radius: 20px;
+    width: 420px;
+}
+
+select, input {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 10px;
+    border: none;
+}
+
+/* ===== BUTTONS ===== */
+.green-btn {
+    width: 100%;
+    padding: 13px;
+    background: linear-gradient(to right, #16a085, #8bc34a);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.blue-btn {
+    width: 100%;
+    padding: 13px;
+    background: linear-gradient(to right, #36d1dc, #5b86e5);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+.weather-result, .result {
+    margin-top: 18px;
+    padding: 18px;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 12px;
+}
+
+.error {
+    color: #ff6b6b;
+}
+
+/* ===== FOOTER ===== */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: 40px;
+}
