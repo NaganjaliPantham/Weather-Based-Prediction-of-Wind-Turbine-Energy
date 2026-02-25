@@ -5,18 +5,6 @@ The project aims to predict the energy output of a wind turbine based on weather
 # Project Demo Video
 https://drive.google.com/file/d/1xuJZko-igur3SykVbHeYxnYKvBqDCdy9/view?usp=sharing
 
-# Team Details
-
-|                 |                         |
-| --------------- | ----------------------- |
-| **Team ID**     | LTVIP2026TMIDS84120     |
-| **Team Leader** | Pantham Naganjali       |
-| **Team Member** | Gurram Teja Sri         |
-| **Team Member** | Dadala Lakshman         |
-| **Team Member** | Steni Desabathula       |
-
----
-
 ## Project Structure
 
 ```
